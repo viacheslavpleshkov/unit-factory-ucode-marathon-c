@@ -1,6 +1,6 @@
 #include "header.h"
 
-char *to_char(const char *argv[]) {
+char *mx_to_char(const char *argv[]) {
     char *temp;
     char *res = (char *)malloc(sizeof(char) * 5);
 

@@ -1,7 +1,4 @@
-#include <stdlib.h>
-
-char *mx_strnew(const int size);
-char *mx_strcpy(char *dst, const char *src);
+#include "header.h"
 
 char *mx_strndup(const char *s1, size_t n) {
     char *duplicate = NULL;

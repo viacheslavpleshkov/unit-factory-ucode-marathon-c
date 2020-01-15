@@ -1,6 +1,6 @@
-#include <stdbool.h>
+#include "header.h"
 
-bool is_rank(char c) {
+bool mx_is_rank(char c) {
     if ( c == 'J' || c == 'Q' || c == 'K' || c == 'A') {
         return true;
     }

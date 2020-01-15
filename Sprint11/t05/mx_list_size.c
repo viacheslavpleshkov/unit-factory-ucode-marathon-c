@@ -1,18 +1,15 @@
 #include "list.h"
 
-int mx_list_size(t_list *list)
-{
-    int i = 0;
-    
-    if (list)
-    {
-        t_list *tmp = list;
-        while (tmp != NULL)
-        {
-            i++;
+int mx_list_size(t_list *list) {
+    int counter = 0;
+    t_list *tmp = NULL;
+
+    if (list) {
+        tmp = list;
+        while (tmp != NULL) {
+            counter++;
             tmp = tmp->next;
         }
     }
-
-    return i;
+    return counter;
 }

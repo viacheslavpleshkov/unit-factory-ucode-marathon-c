@@ -1,6 +1,6 @@
-#include <stdbool.h>
+#include "header.h"
 
-bool is_suit(char c) {
+bool mx_is_suit(char c) {
     if ( c == 'H' || c == 'C' || c == 'S' || c == 'D') {
         return true;
     }

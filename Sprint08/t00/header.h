@@ -1,5 +1,5 @@
-#ifndef header_h
-#define header_h
+#ifndef HEADER_H
+#define HEADER_H
 
 #include <stdbool.h>
 

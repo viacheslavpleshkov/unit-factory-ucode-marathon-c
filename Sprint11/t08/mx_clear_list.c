@@ -1,19 +1,16 @@
 #include "list.h"
 
-void mx_clear_list(t_list **list)
-{
+void mx_clear_list(t_list **list) {
 	t_list *tmp = *list;
-	while (tmp->next)
-	{
-		if (tmp->next->next)
-		{
+
+	while (tmp->next) {
+		if (tmp->next->next) {
 			free(tmp->next);
 			tmp->next = NULL;
 			tmp = (*list);
 			continue;
 		}
-		if (tmp->next)
-		{
+		if (tmp->next) {
 			tmp = tmp->next;
 		}
 	}

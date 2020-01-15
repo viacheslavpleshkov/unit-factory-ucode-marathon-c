@@ -4,38 +4,30 @@
 void mx_printchar(char c);
 static void print_newline(bool *flag);
 
-void mx_str_separate(const char *str, char delim)
-{
-    if (!str)
-    {
-        return;
+static void print_newline(bool *flag) {
+    if (*flag) {
+        mx_printchar('\n');
+        *flag = false;
     }
-    else
-    {
-        int i = 0;
-        bool flag = true;
-        while (str[i])
-        {
-            if (str[i] == delim)
-            {
+}
+
+void mx_str_separate(const char *str, char delim) {
+    int i = 0;
+    bool flag = true;
+
+    if (!str)
+        return;
+    else {
+        while (str[i]) {
+            if (str[i] == delim) {
                 smart_print_newline(&flag);
             }
-            else
-            {
+            else {
                 mx_printchar(str[i]);
                 flag = true;
             }
             i++;
         }
         smart_print_newline(&flag);
-    }
-}
-
-static void print_newline(bool *flag)
-{
-    if (*flag)
-    {
-        mx_printchar('\n');
-        *flag = false;
     }
 }

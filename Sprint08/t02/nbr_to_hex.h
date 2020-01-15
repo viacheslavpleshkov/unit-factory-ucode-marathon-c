@@ -1,5 +1,5 @@
-#ifndef duplicate_h
-#define duplicate_h
+#ifndef HEX_TO_NBR_H
+#define HEX_TO_NBR_H
 
 #include <stdbool.h>
 

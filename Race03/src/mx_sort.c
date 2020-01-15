@@ -1,6 +1,6 @@
 #include "header.h"
 
-void sort (int *c , char *b) {
+void mx_sort(int *c , char *b) {
     int temp;
     char temp_c;
 

@@ -1,5 +1,5 @@
-#ifndef printerr_h
-#define printerr_h
+#ifndef PRINTERR_H
+#define PRINTERR_H
 
 #include <unistd.h>
 

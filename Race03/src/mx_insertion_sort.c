@@ -1,4 +1,4 @@
-int mx_strlen(const char *s);
+#include "header.h"
 
 int mx_insertion_sort(char **arr, int size) {
     char *temp;

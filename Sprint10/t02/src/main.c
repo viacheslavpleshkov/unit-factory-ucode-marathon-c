@@ -1,4 +1,6 @@
 #include "cat.h"
+#include "cat.h"
+
 int main(int agvc, char *argv[]) {
 	char s[1];
 

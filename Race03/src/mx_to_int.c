@@ -1,5 +1,6 @@
 #include "header.h"
-int *to_int(const char *argv[]) {
+
+int *mx_to_int(const char *argv[]) {
     int *res = (int *)malloc(sizeof(int) * 5);
     char *temp;
     int flag = 0;
