@@ -1,7 +1,7 @@
 #include "matrix.h"
 
 int prob(int percentage) {
-	int num = random() % 100;
+	int num = rand() % 100;
 
 	if(num < percentage)
 		return 1;
