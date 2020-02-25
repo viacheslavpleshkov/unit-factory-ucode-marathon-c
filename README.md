@@ -17,6 +17,7 @@ Problem Solving, Analysis, Reasoning & Argumentation, Agility & Adaptability, Se
 <hr>
 
 |Name|Challenge|
+|-------------|----------------------------------------------------|
 |Sprint00|Start learning programming.|
 |Sprint01|Learn the basics of C.|
 |Sprint02|Start delving into C language.|
